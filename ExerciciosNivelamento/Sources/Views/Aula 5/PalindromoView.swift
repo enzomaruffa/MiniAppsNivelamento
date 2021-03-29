@@ -15,7 +15,7 @@ struct PalindromoView: View {
         palindromo = ExerciciosNivelamento.palindromo(frase: frase)
     }
     
-    var body: some View {
+    var body: some View { 
         VStack(alignment: .center) {
             Text("É palíndromo?")
             TextField("Coloque a frase aqui!", text: $frase)
