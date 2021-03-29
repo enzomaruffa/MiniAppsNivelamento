@@ -21,6 +21,8 @@
 		D75EB3B72612503400A75E6E /* AreaDoCirculo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75EB3B62612503400A75E6E /* AreaDoCirculo.swift */; };
 		D75EB3BA2612509C00A75E6E /* AreaDoCirculoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75EB3B92612509C00A75E6E /* AreaDoCirculoView.swift */; };
 		D75EB3BF261252A800A75E6E /* NumericTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75EB3BE261252A800A75E6E /* NumericTextField.swift */; };
+		D75EB3C3261256AA00A75E6E /* MediaPonderada.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75EB3C2261256AA00A75E6E /* MediaPonderada.swift */; };
+		D75EB3C6261257F700A75E6E /* MediaPonderadaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75EB3C5261257F700A75E6E /* MediaPonderadaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,8 @@
 		D75EB3B62612503400A75E6E /* AreaDoCirculo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaDoCirculo.swift; sourceTree = "<group>"; };
 		D75EB3B92612509C00A75E6E /* AreaDoCirculoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaDoCirculoView.swift; sourceTree = "<group>"; };
 		D75EB3BE261252A800A75E6E /* NumericTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericTextField.swift; sourceTree = "<group>"; };
+		D75EB3C2261256AA00A75E6E /* MediaPonderada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPonderada.swift; sourceTree = "<group>"; };
+		D75EB3C5261257F700A75E6E /* MediaPonderadaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPonderadaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +140,7 @@
 			children = (
 				D75EB3B62612503400A75E6E /* AreaDoCirculo.swift */,
 				D75EB3AC261240DC00A75E6E /* GastoDoFumante.swift */,
+				D75EB3C2261256AA00A75E6E /* MediaPonderada.swift */,
 			);
 			path = "Aula 1";
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 			children = (
 				D75EB3B02612418700A75E6E /* GastoDoFumanteView.swift */,
 				D75EB3B92612509C00A75E6E /* AreaDoCirculoView.swift */,
+				D75EB3C5261257F700A75E6E /* MediaPonderadaView.swift */,
 			);
 			path = "Aula 1";
 			sourceTree = "<group>";
@@ -228,9 +234,11 @@
 			files = (
 				D75EB3AD261240DC00A75E6E /* GastoDoFumante.swift in Sources */,
 				C013899A2612162000895BDC /* ExercicioView.swift in Sources */,
+				D75EB3C6261257F700A75E6E /* MediaPonderadaView.swift in Sources */,
 				C013898026120E6A00895BDC /* ContentView.swift in Sources */,
 				C013898E2612113500895BDC /* Model.swift in Sources */,
 				D75EB3B12612418700A75E6E /* GastoDoFumanteView.swift in Sources */,
+				D75EB3C3261256AA00A75E6E /* MediaPonderada.swift in Sources */,
 				D75EB3BF261252A800A75E6E /* NumericTextField.swift in Sources */,
 				C013897E26120E6A00895BDC /* ExerciciosNivelamentoApp.swift in Sources */,
 				D75EB3BA2612509C00A75E6E /* AreaDoCirculoView.swift in Sources */,

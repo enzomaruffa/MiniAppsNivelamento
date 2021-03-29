@@ -70,6 +70,10 @@ class Exercicios {
                         nome: "Área do círculo",
                         view: AnyView(AreaDoCirculoView())
                     ),
+                    .init(
+                        nome: "Média Ponderada",
+                        view: AnyView(MediaPonderadaView())
+                    ),
                 ]
             ),
             Categoria(nome: "5. Vetores", exercicios: [palindromo])
