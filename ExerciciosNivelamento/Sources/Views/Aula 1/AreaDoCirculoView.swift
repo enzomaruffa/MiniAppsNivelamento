@@ -18,6 +18,12 @@ struct AreaDoCirculoView: View {
     }
     
     private func updateRadius<T: Equatable>(_ :T) {
-        
+        guard let radius = Float(self.radius)
+        else {
+            circleArea = "Preencha todos os campos com numeros (use ponto para a virgula)"
+            return
+        }
+        let circleArea: Float = areaDoCirculo(raio: radius)
+        self.circleArea = "Area do ciculo: \(circleArea)"
     }
 }
