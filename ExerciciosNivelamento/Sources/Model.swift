@@ -54,10 +54,20 @@ class Exercicios {
     let categorias: [Categoria]
     
     private init() {
+        
         // Aula 5: Vetores
         let palindromo = Exercicio(nome: "Palíndromo", view: AnyView(PalindromoView()))
         
         categorias = [
+            Categoria(
+                nome: "1. Constantes e Variáveis",
+                exercicios: [
+                    .init(
+                        nome: "Gasto do Fumante",
+                        view: AnyView(GastoDoFumanteView())
+                    )
+                ]
+            ),
             Categoria(nome: "5. Vetores", exercicios: [palindromo])
         ]
     }

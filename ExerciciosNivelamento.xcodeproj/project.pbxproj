@@ -16,6 +16,8 @@
 		C01389962612150A00895BDC /* ExerciciosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01389952612150A00895BDC /* ExerciciosView.swift */; };
 		C013899A2612162000895BDC /* ExercicioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01389992612162000895BDC /* ExercicioView.swift */; };
 		C013899E26121C7200895BDC /* Resolucoes5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C013899D26121C7200895BDC /* Resolucoes5.swift */; };
+		D75EB3AD261240DC00A75E6E /* GastoDoFumante.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75EB3AC261240DC00A75E6E /* GastoDoFumante.swift */; };
+		D75EB3B12612418700A75E6E /* GastoDoFumanteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75EB3B02612418700A75E6E /* GastoDoFumanteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		C01389992612162000895BDC /* ExercicioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercicioView.swift; sourceTree = "<group>"; };
 		C013899D26121C7200895BDC /* Resolucoes5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resolucoes5.swift; sourceTree = "<group>"; };
 		C01389A72612317900895BDC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D75EB3AC261240DC00A75E6E /* GastoDoFumante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastoDoFumante.swift; sourceTree = "<group>"; };
+		D75EB3B02612418700A75E6E /* GastoDoFumanteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastoDoFumanteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 		C013897C26120E6A00895BDC /* ExerciciosNivelamento */ = {
 			isa = PBXGroup;
 			children = (
+				D75EB3AA261240BA00A75E6E /* Exercicios */,
 				C01389A226121F4E00895BDC /* Sources */,
 				C013899D26121C7200895BDC /* Resolucoes5.swift */,
 				C013898126120E6D00895BDC /* Assets.xcassets */,
@@ -83,6 +88,7 @@
 		C01389A126121F3D00895BDC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D75EB3AF2612417900A75E6E /* Aula 1 */,
 				C01389A32612305400895BDC /* Aula 5 */,
 				C013897F26120E6A00895BDC /* ContentView.swift */,
 				C01389952612150A00895BDC /* ExerciciosView.swift */,
@@ -108,6 +114,30 @@
 				C01389902612125D00895BDC /* PalindromoView.swift */,
 			);
 			path = "Aula 5";
+			sourceTree = "<group>";
+		};
+		D75EB3AA261240BA00A75E6E /* Exercicios */ = {
+			isa = PBXGroup;
+			children = (
+				D75EB3AB261240C800A75E6E /* Aula 1 */,
+			);
+			path = Exercicios;
+			sourceTree = "<group>";
+		};
+		D75EB3AB261240C800A75E6E /* Aula 1 */ = {
+			isa = PBXGroup;
+			children = (
+				D75EB3AC261240DC00A75E6E /* GastoDoFumante.swift */,
+			);
+			path = "Aula 1";
+			sourceTree = "<group>";
+		};
+		D75EB3AF2612417900A75E6E /* Aula 1 */ = {
+			isa = PBXGroup;
+			children = (
+				D75EB3B02612418700A75E6E /* GastoDoFumanteView.swift */,
+			);
+			path = "Aula 1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,9 +209,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D75EB3AD261240DC00A75E6E /* GastoDoFumante.swift in Sources */,
 				C013899A2612162000895BDC /* ExercicioView.swift in Sources */,
 				C013898026120E6A00895BDC /* ContentView.swift in Sources */,
 				C013898E2612113500895BDC /* Model.swift in Sources */,
+				D75EB3B12612418700A75E6E /* GastoDoFumanteView.swift in Sources */,
 				C013897E26120E6A00895BDC /* ExerciciosNivelamentoApp.swift in Sources */,
 				C013899E26121C7200895BDC /* Resolucoes5.swift in Sources */,
 				C01389912612125D00895BDC /* PalindromoView.swift in Sources */,
@@ -315,7 +347,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ExerciciosNivelamento/Preview Content\"";
-				DEVELOPMENT_TEAM = D9FBK2WPJX;
+				DEVELOPMENT_TEAM = QM43B7QRF9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ExerciciosNivelamento/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -337,7 +369,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ExerciciosNivelamento/Preview Content\"";
-				DEVELOPMENT_TEAM = D9FBK2WPJX;
+				DEVELOPMENT_TEAM = QM43B7QRF9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ExerciciosNivelamento/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
