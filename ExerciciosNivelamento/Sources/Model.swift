@@ -65,7 +65,11 @@ class Exercicios {
                     .init(
                         nome: "Gasto do Fumante",
                         view: AnyView(GastoDoFumanteView())
-                    )
+                    ),
+                    .init(
+                        nome: "Área do círculo",
+                        view: AnyView(AreaDoCirculoView())
+                    ),
                 ]
             ),
             Categoria(nome: "5. Vetores", exercicios: [palindromo])

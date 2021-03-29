@@ -18,6 +18,9 @@
 		C013899E26121C7200895BDC /* Resolucoes5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C013899D26121C7200895BDC /* Resolucoes5.swift */; };
 		D75EB3AD261240DC00A75E6E /* GastoDoFumante.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75EB3AC261240DC00A75E6E /* GastoDoFumante.swift */; };
 		D75EB3B12612418700A75E6E /* GastoDoFumanteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75EB3B02612418700A75E6E /* GastoDoFumanteView.swift */; };
+		D75EB3B72612503400A75E6E /* AreaDoCirculo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75EB3B62612503400A75E6E /* AreaDoCirculo.swift */; };
+		D75EB3BA2612509C00A75E6E /* AreaDoCirculoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75EB3B92612509C00A75E6E /* AreaDoCirculoView.swift */; };
+		D75EB3BF261252A800A75E6E /* NumericTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75EB3BE261252A800A75E6E /* NumericTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		C01389A72612317900895BDC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D75EB3AC261240DC00A75E6E /* GastoDoFumante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastoDoFumante.swift; sourceTree = "<group>"; };
 		D75EB3B02612418700A75E6E /* GastoDoFumanteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastoDoFumanteView.swift; sourceTree = "<group>"; };
+		D75EB3B62612503400A75E6E /* AreaDoCirculo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaDoCirculo.swift; sourceTree = "<group>"; };
+		D75EB3B92612509C00A75E6E /* AreaDoCirculoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaDoCirculoView.swift; sourceTree = "<group>"; };
+		D75EB3BE261252A800A75E6E /* NumericTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,7 @@
 		C01389A126121F3D00895BDC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D75EB3BD2612529700A75E6E /* Utils */,
 				D75EB3AF2612417900A75E6E /* Aula 1 */,
 				C01389A32612305400895BDC /* Aula 5 */,
 				C013897F26120E6A00895BDC /* ContentView.swift */,
@@ -127,6 +134,7 @@
 		D75EB3AB261240C800A75E6E /* Aula 1 */ = {
 			isa = PBXGroup;
 			children = (
+				D75EB3B62612503400A75E6E /* AreaDoCirculo.swift */,
 				D75EB3AC261240DC00A75E6E /* GastoDoFumante.swift */,
 			);
 			path = "Aula 1";
@@ -136,8 +144,17 @@
 			isa = PBXGroup;
 			children = (
 				D75EB3B02612418700A75E6E /* GastoDoFumanteView.swift */,
+				D75EB3B92612509C00A75E6E /* AreaDoCirculoView.swift */,
 			);
 			path = "Aula 1";
+			sourceTree = "<group>";
+		};
+		D75EB3BD2612529700A75E6E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D75EB3BE261252A800A75E6E /* NumericTextField.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,8 +231,11 @@
 				C013898026120E6A00895BDC /* ContentView.swift in Sources */,
 				C013898E2612113500895BDC /* Model.swift in Sources */,
 				D75EB3B12612418700A75E6E /* GastoDoFumanteView.swift in Sources */,
+				D75EB3BF261252A800A75E6E /* NumericTextField.swift in Sources */,
 				C013897E26120E6A00895BDC /* ExerciciosNivelamentoApp.swift in Sources */,
+				D75EB3BA2612509C00A75E6E /* AreaDoCirculoView.swift in Sources */,
 				C013899E26121C7200895BDC /* Resolucoes5.swift in Sources */,
+				D75EB3B72612503400A75E6E /* AreaDoCirculo.swift in Sources */,
 				C01389912612125D00895BDC /* PalindromoView.swift in Sources */,
 				C01389962612150A00895BDC /* ExerciciosView.swift in Sources */,
 			);
