@@ -5,19 +5,29 @@ struct GastoDoFumanteView: View {
     @State private var yearsSmoking: String = ""
     @State private var cigarreteCount: String = ""
     @State private var packPrice: String = ""
-    @State private var totalCoast: String = ""
+    @State private var totalCoast: String = "Preencha os campos acima"
     
     var body: some View {
         VStack {
-            TextField("Anos fumando", text: $yearsSmoking)
-                .onChange(of: yearsSmoking, perform: updateCoast)
-                .keyboardType(.numberPad)
-            TextField("Quantos cigarros vc fuma por dia", text: $cigarreteCount)
-                .onChange(of: cigarreteCount, perform: updateCoast)
-                .keyboardType(.numberPad)
-            TextField("Preco do maco", text: $packPrice)
-                .onChange(of: packPrice, perform: updateCoast)
-                .keyboardType(.numberPad)
+            NumericTextField(
+                title: "Quantos anos fumando",
+                text: $yearsSmoking,
+                value: yearsSmoking,
+                action: updateCoast
+            )
+            
+            NumericTextField(
+                title: "Quantos cigarros fumados por dia",
+                text: $cigarreteCount,
+                value: cigarreteCount,
+                action: updateCoast
+            )
+            NumericTextField(
+                title: "Preco do maco",
+                text: $packPrice,
+                value: packPrice,
+                action: updateCoast
+            )
             Text("\(totalCoast)")
         }
         .padding()
