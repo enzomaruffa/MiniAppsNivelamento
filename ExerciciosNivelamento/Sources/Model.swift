@@ -78,6 +78,7 @@ class Exercicios {
             ),
             Categoria(nome: "2. Funções", exercicios: [
                 .init(nome: "IMC", view: AnyView(IMCView())),
+                .init(nome: "Raio de um círculo", view: AnyView(CircleRadiusView())),
             ]),
             Categoria(nome: "5. Vetores", exercicios: [palindromo])
         ]
