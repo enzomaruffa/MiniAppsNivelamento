@@ -79,6 +79,7 @@ class Exercicios {
             Categoria(nome: "2. Funções", exercicios: [
                 .init(nome: "IMC", view: AnyView(IMCView())),
                 .init(nome: "Raio de um círculo", view: AnyView(CircleRadiusView())),
+                .init(nome: "Densidade de mercúrio", view: AnyView(FishMassView())),
             ]),
             Categoria(nome: "5. Vetores", exercicios: [palindromo])
         ]
