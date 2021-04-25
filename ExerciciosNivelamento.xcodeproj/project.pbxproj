@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		564BAB3C2635D0FD00889442 /* IMCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BAB3B2635D0FD00889442 /* IMCView.swift */; };
+		564BAB412635D20A00889442 /* Aula 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BAB402635D20A00889442 /* Aula 2.swift */; };
 		C013897E26120E6A00895BDC /* ExerciciosNivelamentoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C013897D26120E6A00895BDC /* ExerciciosNivelamentoApp.swift */; };
 		C013898026120E6A00895BDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C013897F26120E6A00895BDC /* ContentView.swift */; };
 		C013898226120E6D00895BDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C013898126120E6D00895BDC /* Assets.xcassets */; };
@@ -15,7 +17,7 @@
 		C01389912612125D00895BDC /* PalindromoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01389902612125D00895BDC /* PalindromoView.swift */; };
 		C01389962612150A00895BDC /* ExerciciosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01389952612150A00895BDC /* ExerciciosView.swift */; };
 		C013899A2612162000895BDC /* ExercicioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01389992612162000895BDC /* ExercicioView.swift */; };
-		C013899E26121C7200895BDC /* Resolucoes5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C013899D26121C7200895BDC /* Resolucoes5.swift */; };
+		C013899E26121C7200895BDC /* Aula 5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C013899D26121C7200895BDC /* Aula 5.swift */; };
 		D75EB3AD261240DC00A75E6E /* GastoDoFumante.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75EB3AC261240DC00A75E6E /* GastoDoFumante.swift */; };
 		D75EB3B12612418700A75E6E /* GastoDoFumanteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75EB3B02612418700A75E6E /* GastoDoFumanteView.swift */; };
 		D75EB3B72612503400A75E6E /* AreaDoCirculo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75EB3B62612503400A75E6E /* AreaDoCirculo.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		564BAB3B2635D0FD00889442 /* IMCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCView.swift; sourceTree = "<group>"; };
+		564BAB402635D20A00889442 /* Aula 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Aula 2.swift"; sourceTree = "<group>"; };
 		C013897A26120E6A00895BDC /* ExerciciosNivelamento.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExerciciosNivelamento.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C013897D26120E6A00895BDC /* ExerciciosNivelamentoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciciosNivelamentoApp.swift; sourceTree = "<group>"; };
 		C013897F26120E6A00895BDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,7 +40,7 @@
 		C01389902612125D00895BDC /* PalindromoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromoView.swift; sourceTree = "<group>"; };
 		C01389952612150A00895BDC /* ExerciciosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciciosView.swift; sourceTree = "<group>"; };
 		C01389992612162000895BDC /* ExercicioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercicioView.swift; sourceTree = "<group>"; };
-		C013899D26121C7200895BDC /* Resolucoes5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resolucoes5.swift; sourceTree = "<group>"; };
+		C013899D26121C7200895BDC /* Aula 5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Aula 5.swift"; sourceTree = "<group>"; };
 		C01389A72612317900895BDC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D75EB3AC261240DC00A75E6E /* GastoDoFumante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastoDoFumante.swift; sourceTree = "<group>"; };
 		D75EB3B02612418700A75E6E /* GastoDoFumanteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastoDoFumanteView.swift; sourceTree = "<group>"; };
@@ -58,6 +62,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		564BAB3A2635D0E300889442 /* Aula 2 */ = {
+			isa = PBXGroup;
+			children = (
+				564BAB3B2635D0FD00889442 /* IMCView.swift */,
+			);
+			path = "Aula 2";
+			sourceTree = "<group>";
+		};
 		C013897126120E6A00895BDC = {
 			isa = PBXGroup;
 			children = (
@@ -79,7 +91,6 @@
 			children = (
 				D75EB3AA261240BA00A75E6E /* Exercicios */,
 				C01389A226121F4E00895BDC /* Sources */,
-				C013899D26121C7200895BDC /* Resolucoes5.swift */,
 				C013898126120E6D00895BDC /* Assets.xcassets */,
 				C013898626120E6D00895BDC /* Info.plist */,
 				C013898326120E6D00895BDC /* Preview Content */,
@@ -100,6 +111,7 @@
 			children = (
 				D75EB3BD2612529700A75E6E /* Utils */,
 				D75EB3AF2612417900A75E6E /* Aula 1 */,
+				564BAB3A2635D0E300889442 /* Aula 2 */,
 				C01389A32612305400895BDC /* Aula 5 */,
 				C013897F26120E6A00895BDC /* ContentView.swift */,
 				C01389952612150A00895BDC /* ExerciciosView.swift */,
@@ -131,6 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				D75EB3AB261240C800A75E6E /* Aula 1 */,
+				564BAB402635D20A00889442 /* Aula 2.swift */,
+				C013899D26121C7200895BDC /* Aula 5.swift */,
 			);
 			path = Exercicios;
 			sourceTree = "<group>";
@@ -242,9 +256,11 @@
 				D75EB3BF261252A800A75E6E /* NumericTextField.swift in Sources */,
 				C013897E26120E6A00895BDC /* ExerciciosNivelamentoApp.swift in Sources */,
 				D75EB3BA2612509C00A75E6E /* AreaDoCirculoView.swift in Sources */,
-				C013899E26121C7200895BDC /* Resolucoes5.swift in Sources */,
+				C013899E26121C7200895BDC /* Aula 5.swift in Sources */,
 				D75EB3B72612503400A75E6E /* AreaDoCirculo.swift in Sources */,
 				C01389912612125D00895BDC /* PalindromoView.swift in Sources */,
+				564BAB3C2635D0FD00889442 /* IMCView.swift in Sources */,
+				564BAB412635D20A00889442 /* Aula 2.swift in Sources */,
 				C01389962612150A00895BDC /* ExerciciosView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

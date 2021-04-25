@@ -76,6 +76,9 @@ class Exercicios {
                     ),
                 ]
             ),
+            Categoria(nome: "2. Funções", exercicios: [
+                .init(nome: "IMC", view: AnyView(IMCView())),
+            ]),
             Categoria(nome: "5. Vetores", exercicios: [palindromo])
         ]
     }
