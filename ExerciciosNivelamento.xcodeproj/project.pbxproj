@@ -19,9 +19,10 @@
 		C013898E2612113500895BDC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C013898D2612113500895BDC /* Model.swift */; };
 		C01389962612150A00895BDC /* ExerciciosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01389952612150A00895BDC /* ExerciciosView.swift */; };
 		C013899A2612162000895BDC /* ExercicioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01389992612162000895BDC /* ExercicioView.swift */; };
+		C0A563AF2636EC7B0049DDF5 /* Aula 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A563AE2636EC7B0049DDF5 /* Aula 1.swift */; };
 		C0A563BA2636EFDC0049DDF5 /* Aula 5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A563B92636EFDC0049DDF5 /* Aula 5.swift */; };
 		C0A563BE2636EFEE0049DDF5 /* PalindromoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A563BD2636EFEE0049DDF5 /* PalindromoView.swift */; };
-		C0A563AF2636EC7B0049DDF5 /* Aula 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A563AE2636EC7B0049DDF5 /* Aula 1.swift */; };
+		C0EA299B2636F51E0092C5F8 /* Aula 6.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA299A2636F51E0092C5F8 /* Aula 6.swift */; };
 		D75EB3B12612418700A75E6E /* GastoDoFumanteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75EB3B02612418700A75E6E /* GastoDoFumanteView.swift */; };
 		D75EB3BA2612509C00A75E6E /* AreaDoCirculoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75EB3B92612509C00A75E6E /* AreaDoCirculoView.swift */; };
 		D75EB3BF261252A800A75E6E /* NumericTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75EB3BE261252A800A75E6E /* NumericTextField.swift */; };
@@ -44,9 +45,10 @@
 		C01389952612150A00895BDC /* ExerciciosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciciosView.swift; sourceTree = "<group>"; };
 		C01389992612162000895BDC /* ExercicioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercicioView.swift; sourceTree = "<group>"; };
 		C01389A72612317900895BDC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C0A563AE2636EC7B0049DDF5 /* Aula 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Aula 1.swift"; sourceTree = "<group>"; };
 		C0A563B92636EFDC0049DDF5 /* Aula 5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Aula 5.swift"; sourceTree = "<group>"; };
 		C0A563BD2636EFEE0049DDF5 /* PalindromoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromoView.swift; sourceTree = "<group>"; };
-		C0A563AE2636EC7B0049DDF5 /* Aula 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Aula 1.swift"; sourceTree = "<group>"; };
+		C0EA299A2636F51E0092C5F8 /* Aula 6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Aula 6.swift"; sourceTree = "<group>"; };
 		D75EB3B02612418700A75E6E /* GastoDoFumanteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastoDoFumanteView.swift; sourceTree = "<group>"; };
 		D75EB3B92612509C00A75E6E /* AreaDoCirculoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaDoCirculoView.swift; sourceTree = "<group>"; };
 		D75EB3BE261252A800A75E6E /* NumericTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericTextField.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				C0A563AE2636EC7B0049DDF5 /* Aula 1.swift */,
 				564BAB402635D20A00889442 /* Aula 2.swift */,
 				C0A563B92636EFDC0049DDF5 /* Aula 5.swift */,
+				C0EA299A2636F51E0092C5F8 /* Aula 6.swift */,
 			);
 			path = Exercicios;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				564BAB4B2635DCD800889442 /* CircleRadiusView.swift in Sources */,
 				D75EB3BF261252A800A75E6E /* NumericTextField.swift in Sources */,
 				C013897E26120E6A00895BDC /* ExerciciosNivelamentoApp.swift in Sources */,
+				C0EA299B2636F51E0092C5F8 /* Aula 6.swift in Sources */,
 				D75EB3BA2612509C00A75E6E /* AreaDoCirculoView.swift in Sources */,
 				564BAB502635DF1C00889442 /* CircleWithSemiLine.swift in Sources */,
 				C0A563AF2636EC7B0049DDF5 /* Aula 1.swift in Sources */,
