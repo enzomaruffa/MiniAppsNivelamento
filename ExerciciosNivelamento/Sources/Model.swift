@@ -65,6 +65,10 @@ class Exercicios {
                 Exercicio(nome: "IMC", view: AnyView(IMCView())),
                 Exercicio(nome: "Raio de um círculo", view: AnyView(CircleRadiusView())),
                 Exercicio(nome: "Densidade de mercúrio", view: AnyView(FishMassView())),
+            ]),
+            Categoria(nome: "3. Condicionais", exercicios: [
+            ]),
+            Categoria(nome: "4. Laços", exercicios: [
             ])
         ]
     }
