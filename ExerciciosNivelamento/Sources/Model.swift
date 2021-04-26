@@ -65,6 +65,9 @@ class Exercicios {
                 Exercicio(nome: "IMC", view: AnyView(IMCView())),
                 Exercicio(nome: "Raio de um círculo", view: AnyView(CircleRadiusView())),
                 Exercicio(nome: "Densidade de mercúrio", view: AnyView(FishMassView())),
+            ]),
+            Categoria(nome: "5. Vetores", exercicios: [
+                Exercicio(nome: "Palíndromo", view: AnyView(PalindromoView()))
             ])
         ]
     }

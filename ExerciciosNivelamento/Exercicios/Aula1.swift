@@ -1,10 +1,3 @@
-//
-//  Aula1.swift
-//  ExerciciosNivelamento
-//
-//  Created by Enzo Maruffa Moreira on 26/04/21.
-//
-
 import Foundation
 
 /// Calcula a área de um círculo a partir do raio.
