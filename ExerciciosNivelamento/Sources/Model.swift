@@ -55,33 +55,20 @@ class Exercicios {
     
     private init() {
         
-        // Aula 5: Vetores
-        let palindromo = Exercicio(nome: "Palíndromo", view: AnyView(PalindromoView()))
-        
         categorias = [
-            Categoria(
-                nome: "1. Constantes e Variáveis",
-                exercicios: [
-                    .init(
-                        nome: "Gasto do Fumante",
-                        view: AnyView(GastoDoFumanteView())
-                    ),
-                    .init(
-                        nome: "Área do círculo",
-                        view: AnyView(AreaDoCirculoView())
-                    ),
-                    .init(
-                        nome: "Média Ponderada",
-                        view: AnyView(MediaPonderadaView())
-                    ),
-                ]
-            ),
-            Categoria(nome: "2. Funções", exercicios: [
-                .init(nome: "IMC", view: AnyView(IMCView())),
-                .init(nome: "Raio de um círculo", view: AnyView(CircleRadiusView())),
-                .init(nome: "Densidade de mercúrio", view: AnyView(FishMassView())),
+            Categoria(nome: "1. Constantes e Variáveis", exercicios: [
+                Exercicio(nome: "Gasto do Fumante", view: AnyView(GastoDoFumanteView())),
+                Exercicio(nome: "Área do círculo", view: AnyView(AreaDoCirculoView())),
+                Exercicio(nome: "Média Ponderada", view: AnyView(MediaPonderadaView())),
             ]),
-            Categoria(nome: "5. Vetores", exercicios: [palindromo])
+            Categoria(nome: "2. Funções", exercicios: [
+                Exercicio(nome: "IMC", view: AnyView(IMCView())),
+                Exercicio(nome: "Raio de um círculo", view: AnyView(CircleRadiusView())),
+                Exercicio(nome: "Densidade de mercúrio", view: AnyView(FishMassView())),
+            ]),
+            Categoria(nome: "5. Vetores", exercicios: [
+                Exercicio(nome: "Palíndromo", view: AnyView(PalindromoView()))
+            ])
         ]
     }
 }

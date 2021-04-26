@@ -1,6 +1,5 @@
 import Foundation
 
-
 /// Calcula o Índice de Massa Corporal (IMC).
 /// - Parameters:
 ///   - weight: Massa do indivíduo, em kg.
