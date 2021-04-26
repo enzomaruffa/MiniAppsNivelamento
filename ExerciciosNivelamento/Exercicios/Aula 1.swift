@@ -1,3 +1,6 @@
+/// # Aula 1
+/// Faça suas resoluções da Aula 1 aqui!
+
 import Foundation
 
 /// Calcula a área de um círculo a partir do raio.
@@ -8,7 +11,6 @@ func areaDoCirculo(raio: Float) -> Float {
     // ...
     return 0
 }
-
 
 /// Calcula a média ponderada de 3 notas
 /// - Parameters:
