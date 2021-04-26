@@ -125,6 +125,7 @@
 				C0EA29AA2636F6930092C5F8 /* Aula 3 */,
 				C0EA29AB2636F6970092C5F8 /* Aula 4 */,
 				C0A563BC2636EFE00049DDF5 /* Aula 5 */,
+				C0B331CE2636F77800128EC6 /* Aula 6 */,
 				C013897F26120E6A00895BDC /* ContentView.swift */,
 				C01389952612150A00895BDC /* ExerciciosView.swift */,
 				C01389992612162000895BDC /* ExercicioView.swift */,
@@ -149,6 +150,13 @@
 				C0A563BD2636EFEE0049DDF5 /* PalindromoView.swift */,
 			);
 			path = "Aula 5";
+			sourceTree = "<group>";
+		};
+		C0B331CE2636F77800128EC6 /* Aula 6 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Aula 6";
 			sourceTree = "<group>";
 		};
 		C0EA29AA2636F6930092C5F8 /* Aula 3 */ = {

@@ -72,6 +72,8 @@ class Exercicios {
             ]),
             Categoria(nome: "5. Vetores", exercicios: [
                 Exercicio(nome: "Palíndromo", view: AnyView(PalindromoView()))
+            ]),
+            Categoria(nome: "6. Algoritmos", exercicios: [
             ])
         ]
     }
