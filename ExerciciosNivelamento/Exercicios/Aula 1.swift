@@ -1,9 +1,5 @@
-//
-//  Aula1.swift
-//  ExerciciosNivelamento
-//
-//  Created by Enzo Maruffa Moreira on 26/04/21.
-//
+/// # Aula 1
+/// Faça suas resoluções da Aula 1 aqui!
 
 import Foundation
 
@@ -15,7 +11,6 @@ func areaDoCirculo(raio: Float) -> Float {
     // ...
     return 0
 }
-
 
 /// Calcula a média ponderada de 3 notas
 /// - Parameters:
