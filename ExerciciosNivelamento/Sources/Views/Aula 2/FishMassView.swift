@@ -14,10 +14,6 @@ struct FishMassView: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            Text("Densidade do mercúrio")
-                .font(.largeTitle)
-                .bold()
-                .lineLimit(nil)
             NumericTextField(title: "Massa do ser humano (kg)", text: $humanMass, value: humanMass, action: handleChange)
             
             HStack {

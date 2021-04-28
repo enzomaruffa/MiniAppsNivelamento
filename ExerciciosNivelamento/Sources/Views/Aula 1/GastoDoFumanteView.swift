@@ -8,50 +8,44 @@ struct GastoDoFumanteView: View {
     @State private var totalCost: String = "Preencha os campos acima!"
     
     var body: some View {
-        HStack(alignment: .top) {
-            VStack(alignment: .center) {
-                Text("Gasto do Fumante")
-                    .font(.largeTitle)
+        VStack(alignment: .center) {
+            HStack {
+                Text("Anos fumando:")
                     .bold()
-                HStack {
-                    Text("Anos fumando:")
-                        .bold()
-                        .frame(minWidth: 140, alignment: .trailing)
-                    NumericTextField(
-                        title: "Quantos anos fumando?",
-                        text: $yearsSmoking,
-                        value: yearsSmoking,
-                        action: updateCost
-                    )
-                }
-                HStack {
-                    Text("Cigarros por dia:")
-                        .bold()
-                        .frame(minWidth: 140, alignment: .trailing)
-                    NumericTextField(
-                        title: "Quantos cigarros por dia?",
-                        text: $cigarreteCount,
-                        value: cigarreteCount,
-                        action: updateCost
-                    )
-                }
-                HStack {
-                    Text("Preço do maço:")
-                        .bold()
-                        .frame(minWidth: 140, alignment: .trailing)
-                    NumericTextField(
-                        title: "Qual o preço?",
-                        text: $packPrice,
-                        value: packPrice,
-                        action: updateCost
-                    )
-                }
-                Spacer()
-                Text("\(totalCost)")
-                    .bold()
+                    .frame(minWidth: 140, alignment: .trailing)
+                NumericTextField(
+                    title: "Quantos anos fumando?",
+                    text: $yearsSmoking,
+                    value: yearsSmoking,
+                    action: updateCost
+                )
             }
+            HStack {
+                Text("Cigarros por dia:")
+                    .bold()
+                    .frame(minWidth: 140, alignment: .trailing)
+                NumericTextField(
+                    title: "Quantos cigarros por dia?",
+                    text: $cigarreteCount,
+                    value: cigarreteCount,
+                    action: updateCost
+                )
+            }
+            HStack {
+                Text("Preço do maço:")
+                    .bold()
+                    .frame(minWidth: 140, alignment: .trailing)
+                NumericTextField(
+                    title: "Qual o preço?",
+                    text: $packPrice,
+                    value: packPrice,
+                    action: updateCost
+                )
+            }
+            Spacer()
+            Text("\(totalCost)")
+                .bold()
         }
-        .padding()
     }
 
     private func updateCost<T: Equatable>(_ : T) {

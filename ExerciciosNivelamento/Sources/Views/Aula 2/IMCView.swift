@@ -19,9 +19,6 @@ struct IMCView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
             VStack(alignment: .leading) {
-                Text("IMC")
-                    .font(.largeTitle)
-                    .bold()
                 NumericTextField(title: "Peso", text: $weight, value: weight, action: handleChange)
                 NumericTextField(title: "Altura", text: $height, value: height, action: handleChange)
                 Text(imc)

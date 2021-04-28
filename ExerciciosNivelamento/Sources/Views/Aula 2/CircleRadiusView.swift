@@ -14,9 +14,6 @@ struct CircleRadiusView: View {
     
     var body: some View {
         VStack(alignment: .center) {
-            Text("Raio de um círculo")
-                .font(.largeTitle)
-                .bold()
             VStack(alignment: .leading) {
                 HStack {
                     Text("Área: ")

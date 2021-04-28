@@ -13,9 +13,6 @@ struct MediaPonderadaView: View {
     
     var body: some View {
         VStack {
-            Text("Média Ponderada")
-                .font(.title)
-                .bold()
             HStack {
                 HStack {
                     Text("Nota:")

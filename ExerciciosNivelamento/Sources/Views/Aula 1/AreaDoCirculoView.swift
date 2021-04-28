@@ -7,9 +7,6 @@ struct AreaDoCirculoView: View {
     
     var body: some View {
         VStack(alignment: .center) {
-            Text("Área de um círculo")
-                .font(.largeTitle)
-                .bold()
             VStack(alignment: .leading) {
                 HStack {
                     Text("Raio: ")
