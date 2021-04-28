@@ -5,40 +5,61 @@ struct GastoDoFumanteView: View {
     @State private var yearsSmoking: String = ""
     @State private var cigarreteCount: String = ""
     @State private var packPrice: String = ""
-    @State private var totalCoast: String = "Preencha os campos acima"
+    @State private var totalCost: String = "Preencha os campos acima!"
     
     var body: some View {
-        VStack {
-            NumericTextField(
-                title: "Quantos anos fumando",
-                text: $yearsSmoking,
-                value: yearsSmoking,
-                action: updateCoast
-            )
-            
-            NumericTextField(
-                title: "Quantos cigarros fumados por dia",
-                text: $cigarreteCount,
-                value: cigarreteCount,
-                action: updateCoast
-            )
-            NumericTextField(
-                title: "Preco do maco",
-                text: $packPrice,
-                value: packPrice,
-                action: updateCoast
-            )
-            Text("\(totalCoast)")
+        HStack(alignment: .top) {
+            VStack(alignment: .center) {
+                Text("Gasto do Fumante")
+                    .font(.largeTitle)
+                    .bold()
+                HStack {
+                    Text("Anos fumando:")
+                        .bold()
+                        .frame(minWidth: 140, alignment: .trailing)
+                    NumericTextField(
+                        title: "Quantos anos fumando?",
+                        text: $yearsSmoking,
+                        value: yearsSmoking,
+                        action: updateCost
+                    )
+                }
+                HStack {
+                    Text("Cigarros por dia:")
+                        .bold()
+                        .frame(minWidth: 140, alignment: .trailing)
+                    NumericTextField(
+                        title: "Quantos cigarros por dia?",
+                        text: $cigarreteCount,
+                        value: cigarreteCount,
+                        action: updateCost
+                    )
+                }
+                HStack {
+                    Text("Preço do maço:")
+                        .bold()
+                        .frame(minWidth: 140, alignment: .trailing)
+                    NumericTextField(
+                        title: "Qual o preço?",
+                        text: $packPrice,
+                        value: packPrice,
+                        action: updateCost
+                    )
+                }
+                Spacer()
+                Text("\(totalCost)")
+                    .bold()
+            }
         }
         .padding()
     }
 
-    private func updateCoast<T: Equatable>(_ : T) {
+    private func updateCost<T: Equatable>(_ : T) {
         guard let yearsSmoking = Int(self.yearsSmoking),
               let cigarreteCount = Int(self.cigarreteCount),
               let packPrice = Float(self.packPrice)
         else {
-            totalCoast = "Preencha todos os campos com numeros (use ponto para a virgula)"
+            totalCost = "Preencha todos os campos!"
             return
         }
         
@@ -48,6 +69,12 @@ struct GastoDoFumanteView: View {
             precoDaCarteira: packPrice
         )
         
-        self.totalCoast = "Foram gastos \(totalCoast) em fumaça"
+        self.totalCost = "Foram gastos \(totalCoast) em fumaça!"
+    }
+}
+
+struct GastoDoFumanteView_Previews: PreviewProvider {
+    static var previews: some View {
+        GastoDoFumanteView()
     }
 }

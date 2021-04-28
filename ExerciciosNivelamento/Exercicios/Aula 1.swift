@@ -6,7 +6,7 @@ import Foundation
 /// Calcula a área de um círculo a partir do raio.
 /// - Parameter raio: Raio do círculo (qualquer unidade).
 /// - Returns: Área do círculo.
-func areaDoCirculo(raio: Float) -> Float {
+func areaDoCirculo(raio: Double) -> Double {
     // Seu codigo aqui
     // ...
     return 0

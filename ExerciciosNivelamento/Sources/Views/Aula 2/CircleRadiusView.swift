@@ -36,10 +36,12 @@ struct CircleRadiusView: View {
     
     private func handleChange<T>(_: T) {
         guard let area = Double(area) else { return }
-        let visualRadius = CGFloat(ExerciciosNivelamento.radiusForCircle(ofArea: area * 1000))
-        if visualRadius < UIScreen.main.bounds.width/2 - 10 {
-            let realRadius = CGFloat(ExerciciosNivelamento.radiusForCircle(ofArea: area))
+        let realRadius = CGFloat(ExerciciosNivelamento.radiusForCircle(ofArea: area))
+        if realRadius < UIScreen.main.bounds.width/2 - 10 {
+            let visualRadius = CGFloat(ExerciciosNivelamento.radiusForCircle(ofArea: area * 800))
             self.radius = (realRadius, visualRadius)
+        } else {
+            self.radius = (realRadius, realRadius)
         }
     }
 }
