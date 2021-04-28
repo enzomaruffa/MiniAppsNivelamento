@@ -38,3 +38,13 @@ func gastoDoFumante(anosFumando: Int, nCigarrosPorDia: Int, precoDaCarteira: Flo
     // ...
     return 0
 }
+
+/// Converte a temperatura de fahrenhei pra celsius
+/// - Parameters:
+///   - temperaturaF: Temperatura em fahrenheit
+/// - Returns: Temperatrua em celsius.
+func converteTemperatura(temperaturaF: Double) -> Double {
+    // Coloque seu codigo aqui
+    // ...
+    return 0
+}

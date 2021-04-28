@@ -7,14 +7,37 @@
 
 import SwiftUI
 
-struct ConversaoTemperatura: View {
+struct ConversaoTemperaturaView: View {
+    @State var fahrenheit: String = ""
+    @State var celsius: Double? = nil
+    
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack(alignment: .top) {
+            NumericTextField(title: "Fahrenheit",
+                 text: $fahrenheit,
+                 value: fahrenheit,
+                 action: handleFahrenheitChange)
+                .frame(alignment: .center)
+            Text("=")
+                .font(.title2)
+                .bold()
+            Text("\(celsius != nil ? "\(celsius!)" : "?")C")
+                .font(.title2)
+                .bold()
+        }
+        Spacer()
+    }
+    
+    private func handleFahrenheitChange<T: Equatable>(_ : T) {
+        guard let fahrenheit = Double(fahrenheit) else { return }
+        let celsius = ExerciciosNivelamento.converteTemperatura(temperaturaF: fahrenheit)
+        self.celsius = celsius
     }
 }
 
-struct ConversaoTemperatura_Previews: PreviewProvider {
+struct ConversaoTemperaturaView_Previews: PreviewProvider {
     static var previews: some View {
-        ConversaoTemperatura()
+        ConversaoTemperaturaView()
     }
 }
