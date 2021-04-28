@@ -38,7 +38,7 @@ struct FishMassView: View {
     
     private func handleChange<T>(_: T) {
         guard let humanMass = Double(humanMass) else { return }
-        fishMass = ExerciciosNivelamento.ingestibleFishMass(forHumanOfMass: humanMass)
+        fishMass = ExerciciosNivelamento.massaDePeixeComestivel(paraMassaHumana: humanMass)
     }
 }
 

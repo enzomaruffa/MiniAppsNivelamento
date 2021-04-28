@@ -38,7 +38,7 @@ struct IMCView: View {
             imc = "Entre com um peso em kg e uma altura em m."
             return
         }
-        let result = ExerciciosNivelamento.imc(weight: weight, height: height)
+        let result = ExerciciosNivelamento.imc(peso: weight, altura: height)
         imc = "IMC = " + String(format: "%.2f", result)
     }
 }
