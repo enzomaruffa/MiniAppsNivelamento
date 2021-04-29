@@ -24,9 +24,18 @@ func raioDoCirculo(comArea area: Double) -> Double {
 
 
 /// Calcula a massa total (kg) de peixe que um ser humano pode ingerir.
-/// - Parameter mass: Massa do ser humano, em kg.
+/// - Parameter massa: Massa do ser humano, em kg.
 /// - Returns: Valor da massa de peixe.
 func massaDePeixeComestivel(paraMassaHumana massa: Double) -> Double {
     // seu código aqui
     return 0.0
+}
+
+/// Calcula o total de dias em um tanto de anos, meses e dias
+/// - Parameter anos: Quantos anos serão considerados
+/// - Parameter meses: Quantos meses serão considerados
+/// - Parameter dias: Quantos dias serão considerados
+/// - Returns: Total de dias em `anos` anos, `meses` meses e `dias` dias
+func idadeEmDias(anos: Int, meses: Int, dias: Int) -> Int {
+    return 0
 }
