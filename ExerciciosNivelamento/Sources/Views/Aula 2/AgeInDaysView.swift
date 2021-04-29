@@ -41,9 +41,9 @@ struct AgeInDaysView: View {
     }
     
     private func handleChange<T>(_: T) {
-        let years = Int(years) ?? 0
-        let months = Int(months) ?? 0
-        let days = Int(days) ?? 0
+        let years = Int(self.years) ?? 0
+        let months = Int(self.months) ?? 0
+        let days = Int(self.days) ?? 0
         total = ExerciciosNivelamento.idadeEmDias(anos: years, meses: months, dias: days)
     }
 }
