@@ -20,7 +20,7 @@ struct FishMassView: View {
                 Image("fish-body")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .overlay(Text(String(format: "%.2f", fishMass) + " kg").foregroundColor(.white).bold().background(Color.black))
+                    .overlay(Text(String(format: "%.2f", fishMass) + " g").foregroundColor(.white).bold().background(Color.black))
                 Image("human-body")
                     .resizable()
                     .aspectRatio(contentMode: .fit)

@@ -24,8 +24,8 @@ func raioDoCirculo(comArea area: Double) -> Double {
 
 
 /// Calcula a massa total (kg) de peixe que um ser humano pode ingerir.
-/// - Parameter massa: Massa do ser humano, em kg.
-/// - Returns: Valor da massa de peixe.
+/// - Parameter mass: Massa do ser humano, em kg.
+/// - Returns: Valor da massa de peixe (em g).
 func massaDePeixeComestivel(paraMassaHumana massa: Double) -> Double {
     // seu código aqui
     return 0.0
