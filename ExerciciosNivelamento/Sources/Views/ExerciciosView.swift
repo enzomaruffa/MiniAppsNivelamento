@@ -17,7 +17,7 @@ struct ExerciciosView: View {
     var body: some View {
         List(exercicios, id: \.nome) { exercicio in
             NavigationLink(
-                destination: exercicio.view,
+                destination: ExercicioView(exercicio: exercicio),
                 label: {
                     Text(exercicio.nome)
                 })

@@ -1,13 +1,10 @@
-#  MiniApps do Nivelamento!
+#  Mini Apps do Nivelamento!
 
-// TODO: Melhorar esse texto aqui
+Resolva seus exercícios nos arquivos de resoluções, que você pode encontrar em:
 
-Resolva seus exercícios nos arquivos de resoluções! 
+- Aula 1 - `Aula1.swift`
+- Aula 2 - `Aula2.swift`
 
-- Aula 1 - `Resolucoes1.swift`
-- Aula 2 - `Resolucoes2.swift`
-- Aula 3 - `Resolucoes3.swift`
-- Aula 4 - `Resolucoes4.swift`
-- Aula 5 - `Resolucoes5.swift`
+Cada exercício possuí uma função no respectivo arquivo. Arrumando o código da função - que atualmente retorna um valor "errado" - o exercício funciona!
 
-Cada exercício possuí uma função no respectivo arquivo. Arrumando o código da função - que atualmente retorna um valor mockado - o exercício funciona!
+Cuidado ao mexer em arquivos além dos acima! Eventuais mudanças suas **em outros arquivos** podem ser descartadas ao adicionarmos novos exercícios

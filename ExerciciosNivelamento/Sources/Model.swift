@@ -57,14 +57,16 @@ class Exercicios {
         
         categorias = [
             Categoria(nome: "1. Constantes e Variáveis", exercicios: [
+                Exercicio(nome: "Conversão de Temperatura", view: AnyView(ConversaoTemperaturaView())),
                 Exercicio(nome: "Gasto do Fumante", view: AnyView(GastoDoFumanteView())),
-                Exercicio(nome: "Área do círculo", view: AnyView(AreaDoCirculoView())),
+                Exercicio(nome: "Área do Círculo", view: AnyView(AreaDoCirculoView())),
                 Exercicio(nome: "Média Ponderada", view: AnyView(MediaPonderadaView())),
             ]),
             Categoria(nome: "2. Funções", exercicios: [
                 Exercicio(nome: "IMC", view: AnyView(IMCView())),
-                Exercicio(nome: "Raio de um círculo", view: AnyView(CircleRadiusView())),
-                Exercicio(nome: "Densidade de mercúrio", view: AnyView(FishMassView())),
+                Exercicio(nome: "Raio de um Círculo", view: AnyView(CircleRadiusView())),
+                Exercicio(nome: "Densidade do Mercúrio", view: AnyView(FishMassView())),
+                Exercicio(nome: "Idade em dias", view: AnyView(AgeInDaysView())),
             ]),
             Categoria(nome: "3. Condicionais", exercicios: [
             ]),
