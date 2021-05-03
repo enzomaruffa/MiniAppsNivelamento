@@ -65,8 +65,16 @@ class Exercicios {
             Categoria(nome: "2. Funções", exercicios: [
                 Exercicio(nome: "IMC", view: AnyView(IMCView())),
                 Exercicio(nome: "Raio de um Círculo", view: AnyView(CircleRadiusView())),
-                Exercicio(nome: "Densidade de Mercúrio", view: AnyView(FishMassView())),
+                Exercicio(nome: "Densidade do Mercúrio", view: AnyView(FishMassView())),
                 Exercicio(nome: "Idade em dias", view: AnyView(AgeInDaysView())),
+            ]),
+            Categoria(nome: "3. Condicionais", exercicios: [
+                Exercicio(nome: "Média Aritmética Simples", view: AnyView(MediaAritmeticaView())),
+                Exercicio(nome: "Tômperos do Jacquin", view: AnyView(TomperosView())),
+                Exercicio(nome: "Jornalistas", view: AnyView(JornalView())),
+                Exercicio(nome: "Venda de Maçãs", view: AnyView(MacasView())),
+            ]),
+            Categoria(nome: "4. Laços", exercicios: [
             ])
         ]
     }
