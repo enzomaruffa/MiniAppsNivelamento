@@ -3,41 +3,20 @@
 
 import Foundation
 
+/// Descobre se um aluno foi aprovado com base em duas notas
+/// - Parameter nota1: A primeira nota
+/// - Parameter nota2: A segunda nota
+/// - Returns: Verdadeiro caso aprovado, falso caso reprovado
+func mediaAritmeticaSimples(nota1: Double, nota2: Double) -> Bool {
+    return false
+}
+
+/// Descobre quais tômperos o Jacquin vai colocar em seu prato
+/// - Parameter temFeijao: Se o prato tem feijão
+/// - Parameter temArroz: Se o prato tem arroz
+/// - Parameter temBatata: Se o prato tem batata
+/// - Returns: Uma quádrupla com verdadeiro para cada tempero que o prato deve possuir
 func tomperos(temFeijao: Bool, temArroz: Bool, temBatata: Bool) -> (azeite: Bool, sal: Bool,
                                                                     pimenta: Bool, oregano: Bool) {
-        var vaiSal = false
-        var vaiPimenta = false
-        var vaiAzeite = false
-        var vaiOregano = false
-        
-        if temFeijao && !temArroz && !temBatata {
-            vaiSal = true
-        }
-        if temArroz && !temFeijao && !temBatata {
-            vaiPimenta = true
-        }
-        if temBatata {
-            vaiAzeite = true
-        }
-        if temArroz && temFeijao && !temBatata {
-            vaiSal = false
-            vaiPimenta = false
-            vaiAzeite = false
-            vaiOregano = false
-        }
-        if temArroz && temFeijao && temBatata {
-            vaiSal = true
-            vaiPimenta = true
-            vaiAzeite = true
-        }
-        
-        if (temBatata || (temFeijao && temArroz)) && !(temBatata && temFeijao && temArroz) {
-            vaiOregano = true
-        }
-        
-        print("Vai azeite: \(vaiAzeite ? "sim" : "não").")
-        print("Vai sal: \(vaiSal ? "sim" : "não").")
-        print("Vai pimenta: \(vaiPimenta ? "sim" : "não").")
-        print("Vai oregano: \(vaiOregano ? "sim" : "não").")
-    return (azeite: vaiAzeite, sal: vaiSal, pimenta: vaiPimenta, oregano: vaiOregano)
+    return (azeite: false, sal: false, pimenta: false, oregano: false)
 }

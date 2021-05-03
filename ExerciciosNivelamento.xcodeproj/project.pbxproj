@@ -20,6 +20,7 @@
 		C01389962612150A00895BDC /* ExerciciosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01389952612150A00895BDC /* ExerciciosView.swift */; };
 		C013899A2612162000895BDC /* ExercicioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01389992612162000895BDC /* ExercicioView.swift */; };
 		C014BF0E26401D7E0071E7BC /* TomperosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C014BF0D26401D7E0071E7BC /* TomperosView.swift */; };
+		C014BF1026402F5C0071E7BC /* MediaAritmeticaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C014BF0F26402F5C0071E7BC /* MediaAritmeticaView.swift */; };
 		C01E981E263AD7970059B7A3 /* AgeInDaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01E981D263AD7970059B7A3 /* AgeInDaysView.swift */; };
 		C0699BAC2639A8F100207237 /* ConversaoTemperatura.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0699BAB2639A8F100207237 /* ConversaoTemperatura.swift */; };
 		C0A563AF2636EC7B0049DDF5 /* Aula 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A563AE2636EC7B0049DDF5 /* Aula 1.swift */; };
@@ -48,6 +49,7 @@
 		C01389992612162000895BDC /* ExercicioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercicioView.swift; sourceTree = "<group>"; };
 		C01389A72612317900895BDC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C014BF0D26401D7E0071E7BC /* TomperosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomperosView.swift; sourceTree = "<group>"; };
+		C014BF0F26402F5C0071E7BC /* MediaAritmeticaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaAritmeticaView.swift; sourceTree = "<group>"; };
 		C01E981D263AD7970059B7A3 /* AgeInDaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeInDaysView.swift; sourceTree = "<group>"; };
 		C0699BAB2639A8F100207237 /* ConversaoTemperatura.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversaoTemperatura.swift; sourceTree = "<group>"; };
 		C0A563AE2636EC7B0049DDF5 /* Aula 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Aula 1.swift"; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				C014BF0D26401D7E0071E7BC /* TomperosView.swift */,
+				C014BF0F26402F5C0071E7BC /* MediaAritmeticaView.swift */,
 			);
 			path = "Aula 3";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				C0EA29A62636F6620092C5F8 /* Aula 4.swift in Sources */,
 				C013899A2612162000895BDC /* ExercicioView.swift in Sources */,
+				C014BF1026402F5C0071E7BC /* MediaAritmeticaView.swift in Sources */,
 				D75EB3C6261257F700A75E6E /* MediaPonderadaView.swift in Sources */,
 				C013898026120E6A00895BDC /* ContentView.swift in Sources */,
 				C013898E2612113500895BDC /* Model.swift in Sources */,
