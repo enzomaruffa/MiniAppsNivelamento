@@ -69,6 +69,7 @@ class Exercicios {
                 Exercicio(nome: "Idade em dias", view: AnyView(AgeInDaysView())),
             ]),
             Categoria(nome: "3. Condicionais", exercicios: [
+                Exercicio(nome: "Tômperos do Jacquin", view: AnyView(TomperosView())),
             ]),
             Categoria(nome: "4. Laços", exercicios: [
             ])
