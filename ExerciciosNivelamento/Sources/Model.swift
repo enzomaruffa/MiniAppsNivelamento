@@ -71,6 +71,8 @@ class Exercicios {
             Categoria(nome: "3. Condicionais", exercicios: [
                 Exercicio(nome: "Média Aritmética Simples", view: AnyView(MediaAritmeticaView())),
                 Exercicio(nome: "Tômperos do Jacquin", view: AnyView(TomperosView())),
+                Exercicio(nome: "Jornalistas", view: AnyView(JornalView())),
+                Exercicio(nome: "Venda de Maçãs", view: AnyView(MacasView())),
             ]),
             Categoria(nome: "4. Laços", exercicios: [
             ])

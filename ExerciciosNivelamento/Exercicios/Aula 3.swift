@@ -20,3 +20,19 @@ func tomperos(temFeijao: Bool, temArroz: Bool, temBatata: Bool) -> (azeite: Bool
                                                                     pimenta: Bool, oregano: Bool) {
     return (azeite: false, sal: false, pimenta: false, oregano: false)
 }
+
+
+/// Calcula o preço total de uma compra de maçãs.
+/// - Parameter n: Quantidade de maçãs.
+/// - Returns: Valor da compra.
+func precoDeMacas(n: Int) -> Double {
+    0.0
+}
+
+
+/// Descobre o nome do Jornal que tem o(a) apresentador(a) de sobrenome informado.
+/// - Parameter sobrenome: Sobrenome do(a) apresentador(a).
+/// - Returns: Nome do Jornal.
+func jornalParaApresentador(deSobrenome sobrenome: String) -> String {
+    "Apresentador desconhecido"
+}

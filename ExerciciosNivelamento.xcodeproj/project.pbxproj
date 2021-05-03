@@ -12,6 +12,8 @@
 		564BAB4B2635DCD800889442 /* CircleRadiusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BAB4A2635DCD800889442 /* CircleRadiusView.swift */; };
 		564BAB502635DF1C00889442 /* CircleWithSemiLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BAB4F2635DF1C00889442 /* CircleWithSemiLine.swift */; };
 		564BAB562635F70300889442 /* FishMassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BAB552635F70300889442 /* FishMassView.swift */; };
+		56E1A6AE2640727B006466C8 /* MacasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E1A6AD2640727B006466C8 /* MacasView.swift */; };
+		56E1A6B026407377006466C8 /* JornalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E1A6AF26407377006466C8 /* JornalView.swift */; };
 		C013897E26120E6A00895BDC /* ExerciciosNivelamentoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C013897D26120E6A00895BDC /* ExerciciosNivelamentoApp.swift */; };
 		C013898026120E6A00895BDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C013897F26120E6A00895BDC /* ContentView.swift */; };
 		C013898226120E6D00895BDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C013898126120E6D00895BDC /* Assets.xcassets */; };
@@ -38,6 +40,8 @@
 		564BAB4A2635DCD800889442 /* CircleRadiusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleRadiusView.swift; sourceTree = "<group>"; };
 		564BAB4F2635DF1C00889442 /* CircleWithSemiLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleWithSemiLine.swift; sourceTree = "<group>"; };
 		564BAB552635F70300889442 /* FishMassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishMassView.swift; sourceTree = "<group>"; };
+		56E1A6AD2640727B006466C8 /* MacasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacasView.swift; sourceTree = "<group>"; };
+		56E1A6AF26407377006466C8 /* JornalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JornalView.swift; sourceTree = "<group>"; };
 		C013897A26120E6A00895BDC /* ExerciciosNivelamento.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExerciciosNivelamento.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C013897D26120E6A00895BDC /* ExerciciosNivelamentoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciciosNivelamentoApp.swift; sourceTree = "<group>"; };
 		C013897F26120E6A00895BDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -150,6 +154,8 @@
 			children = (
 				C014BF0D26401D7E0071E7BC /* TomperosView.swift */,
 				C014BF0F26402F5C0071E7BC /* MediaAritmeticaView.swift */,
+				56E1A6AD2640727B006466C8 /* MacasView.swift */,
+				56E1A6AF26407377006466C8 /* JornalView.swift */,
 			);
 			path = "Aula 3";
 			sourceTree = "<group>";
@@ -272,7 +278,9 @@
 				D75EB3BF261252A800A75E6E /* NumericTextField.swift in Sources */,
 				C013897E26120E6A00895BDC /* ExerciciosNivelamentoApp.swift in Sources */,
 				D75EB3BA2612509C00A75E6E /* AreaDoCirculoView.swift in Sources */,
+				56E1A6B026407377006466C8 /* JornalView.swift in Sources */,
 				564BAB502635DF1C00889442 /* CircleWithSemiLine.swift in Sources */,
+				56E1A6AE2640727B006466C8 /* MacasView.swift in Sources */,
 				C0A563AF2636EC7B0049DDF5 /* Aula 1.swift in Sources */,
 				564BAB3C2635D0FD00889442 /* IMCView.swift in Sources */,
 				564BAB412635D20A00889442 /* Aula 2.swift in Sources */,
