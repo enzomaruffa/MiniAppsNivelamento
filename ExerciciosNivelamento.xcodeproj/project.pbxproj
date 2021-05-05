@@ -14,6 +14,7 @@
 		564BAB562635F70300889442 /* FishMassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BAB552635F70300889442 /* FishMassView.swift */; };
 		56E1A6AE2640727B006466C8 /* MacasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E1A6AD2640727B006466C8 /* MacasView.swift */; };
 		56E1A6B026407377006466C8 /* JornalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E1A6AF26407377006466C8 /* JornalView.swift */; };
+		C01199462642CA5700458F40 /* AlerteAsOvelhasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01199452642CA5700458F40 /* AlerteAsOvelhasView.swift */; };
 		C013897E26120E6A00895BDC /* ExerciciosNivelamentoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C013897D26120E6A00895BDC /* ExerciciosNivelamentoApp.swift */; };
 		C013898026120E6A00895BDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C013897F26120E6A00895BDC /* ContentView.swift */; };
 		C013898226120E6D00895BDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C013898126120E6D00895BDC /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 		564BAB552635F70300889442 /* FishMassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishMassView.swift; sourceTree = "<group>"; };
 		56E1A6AD2640727B006466C8 /* MacasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacasView.swift; sourceTree = "<group>"; };
 		56E1A6AF26407377006466C8 /* JornalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JornalView.swift; sourceTree = "<group>"; };
+		C01199452642CA5700458F40 /* AlerteAsOvelhasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlerteAsOvelhasView.swift; sourceTree = "<group>"; };
 		C013897A26120E6A00895BDC /* ExerciciosNivelamento.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExerciciosNivelamento.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C013897D26120E6A00895BDC /* ExerciciosNivelamentoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciciosNivelamentoApp.swift; sourceTree = "<group>"; };
 		C013897F26120E6A00895BDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 		C0EA29AB2636F6970092C5F8 /* Aula 4 */ = {
 			isa = PBXGroup;
 			children = (
+				C01199452642CA5700458F40 /* AlerteAsOvelhasView.swift */,
 			);
 			path = "Aula 4";
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			files = (
 				C0EA29A62636F6620092C5F8 /* Aula 4.swift in Sources */,
 				C013899A2612162000895BDC /* ExercicioView.swift in Sources */,
+				C01199462642CA5700458F40 /* AlerteAsOvelhasView.swift in Sources */,
 				C014BF1026402F5C0071E7BC /* MediaAritmeticaView.swift in Sources */,
 				D75EB3C6261257F700A75E6E /* MediaPonderadaView.swift in Sources */,
 				C013898026120E6A00895BDC /* ContentView.swift in Sources */,
