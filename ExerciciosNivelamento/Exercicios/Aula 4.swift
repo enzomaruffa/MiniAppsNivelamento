@@ -17,20 +17,17 @@ func nivelDePiramide(paraBolas bolas: Int) -> Int {
     0
 }
 
-
 /// Descobre se um número inteiro é primo.
 /// - Parameter n: O número a ser verificado.
 /// - Returns: Se é primo.
 func ehPrimo(_ n: Int) -> Bool {
-    if n <= 1 { return false }
-    else if n <= 3 { return true }
-    
-    let sqrt = Int(Double(n).squareRoot())
-    for i in 2...sqrt {
-        if n.isMultiple(of: i) {
-            return false
-        }
-    }
-    
-    return true
+    false
 }
+
+/// Define quantas # devem existir em cada degrau de uma escada com `degraus` degraus
+/// - Parameter degraus: Quantidade de degraus.
+/// - Returns: Quantidade de # por degrau (índice 0 = degrau mais próximo do topo).
+func escadaDeHashtag(com degraus: Int) -> [Int] {
+    []
+}
+

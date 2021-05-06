@@ -71,9 +71,10 @@ class Exercicios {
             Exercicio(nome: "Venda de Maçãs", view: AnyView(MacasView())),
         ]),
         Categoria(nome: "4. Laços", exercicios: [
-            Exercicio(nome: "Alerte as Ovelhas", view: AnyView(AlerteAsOvelhasView())),
+            Exercicio(nome: "Escada de #", view: AnyView(EscadaView())),
             Exercicio(nome: "Pirâmide de Sinuca", view: AnyView(PiramideView())),
             Exercicio(nome: "É Primo?", view: AnyView(PrimoView())),
+            Exercicio(nome: "Alerte as Ovelhas", view: AnyView(AlerteAsOvelhasView())),
         ])
     ]
 }
