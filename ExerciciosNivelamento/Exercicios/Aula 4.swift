@@ -9,3 +9,10 @@ import Foundation
 func avisaOvelhas(animais: [String]) -> String {
     return "Mensagem"
 }
+
+/// Calcula uma pirâmide de quantos níveis é possível montar.
+/// - Parameter bolas: Quantidade de bolas.
+/// - Returns: Níveis da pirâmide.
+func nivelDePiramide(paraBolas bolas: Int) -> Int {
+    0
+}

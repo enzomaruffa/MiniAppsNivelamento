@@ -51,32 +51,28 @@ class Exercicio {
 class Exercicios {
     static let shared = Exercicios()
     
-    let categorias: [Categoria]
-    
-    private init() {
-        
-        categorias = [
-            Categoria(nome: "1. Constantes e Variáveis", exercicios: [
-                Exercicio(nome: "Conversão de Temperatura", view: AnyView(ConversaoTemperaturaView())),
-                Exercicio(nome: "Gasto do Fumante", view: AnyView(GastoDoFumanteView())),
-                Exercicio(nome: "Área do Círculo", view: AnyView(AreaDoCirculoView())),
-                Exercicio(nome: "Média Ponderada", view: AnyView(MediaPonderadaView())),
-            ]),
-            Categoria(nome: "2. Funções", exercicios: [
-                Exercicio(nome: "IMC", view: AnyView(IMCView())),
-                Exercicio(nome: "Raio de um Círculo", view: AnyView(CircleRadiusView())),
-                Exercicio(nome: "Densidade do Mercúrio", view: AnyView(FishMassView())),
-                Exercicio(nome: "Idade em dias", view: AnyView(AgeInDaysView())),
-            ]),
-            Categoria(nome: "3. Condicionais", exercicios: [
-                Exercicio(nome: "Média Aritmética Simples", view: AnyView(MediaAritmeticaView())),
-                Exercicio(nome: "Tômperos do Jacquin", view: AnyView(TomperosView())),
-                Exercicio(nome: "Jornalistas", view: AnyView(JornalView())),
-                Exercicio(nome: "Venda de Maçãs", view: AnyView(MacasView())),
-            ]),
-            Categoria(nome: "4. Laços", exercicios: [
-                Exercicio(nome: "Alerte as Ovelhas", view: AnyView(AlerteAsOvelhasView())),
-            ])
-        ]
-    }
+    let categorias: [Categoria] = [
+        Categoria(nome: "1. Constantes e Variáveis", exercicios: [
+            Exercicio(nome: "Conversão de Temperatura", view: AnyView(ConversaoTemperaturaView())),
+            Exercicio(nome: "Gasto do Fumante", view: AnyView(GastoDoFumanteView())),
+            Exercicio(nome: "Área do Círculo", view: AnyView(AreaDoCirculoView())),
+            Exercicio(nome: "Média Ponderada", view: AnyView(MediaPonderadaView())),
+        ]),
+        Categoria(nome: "2. Funções", exercicios: [
+            Exercicio(nome: "IMC", view: AnyView(IMCView())),
+            Exercicio(nome: "Raio de um Círculo", view: AnyView(CircleRadiusView())),
+            Exercicio(nome: "Densidade do Mercúrio", view: AnyView(FishMassView())),
+            Exercicio(nome: "Idade em dias", view: AnyView(AgeInDaysView())),
+        ]),
+        Categoria(nome: "3. Condicionais", exercicios: [
+            Exercicio(nome: "Média Aritmética Simples", view: AnyView(MediaAritmeticaView())),
+            Exercicio(nome: "Tômperos do Jacquin", view: AnyView(TomperosView())),
+            Exercicio(nome: "Jornalistas", view: AnyView(JornalView())),
+            Exercicio(nome: "Venda de Maçãs", view: AnyView(MacasView())),
+        ]),
+        Categoria(nome: "4. Laços", exercicios: [
+            Exercicio(nome: "Alerte as Ovelhas", view: AnyView(AlerteAsOvelhasView())),
+            Exercicio(nome: "Pirâmide de Sinuca", view: AnyView(PiramideView())),
+        ])
+    ]
 }
