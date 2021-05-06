@@ -19,10 +19,10 @@ struct AlerteAsOvelhasView: View {
         VStack(alignment: .center) {
             Spacer()
             Text(message)
-                .foregroundColor(.black)
+                .foregroundColor(.white)
                 .bold()
                 .padding()
-                .background(Color.white)
+                .background(Color.gray)
                 .multilineTextAlignment(.center)
                 .lineLimit(nil)
                 .cornerRadius(12)
