@@ -13,6 +13,7 @@
 		564BAB502635DF1C00889442 /* CircleWithSemiLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BAB4F2635DF1C00889442 /* CircleWithSemiLine.swift */; };
 		564BAB562635F70300889442 /* FishMassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BAB552635F70300889442 /* FishMassView.swift */; };
 		5694E34E264336880065B489 /* PiramideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5694E34D264336880065B489 /* PiramideView.swift */; };
+		56964A4C2644201C0047CF82 /* PrimoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56964A4B2644201C0047CF82 /* PrimoView.swift */; };
 		569EA60326437714009A4149 /* SizeAwareness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569EA60226437714009A4149 /* SizeAwareness.swift */; };
 		56E1A6AE2640727B006466C8 /* MacasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E1A6AD2640727B006466C8 /* MacasView.swift */; };
 		56E1A6B026407377006466C8 /* JornalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E1A6AF26407377006466C8 /* JornalView.swift */; };
@@ -44,6 +45,7 @@
 		564BAB4F2635DF1C00889442 /* CircleWithSemiLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleWithSemiLine.swift; sourceTree = "<group>"; };
 		564BAB552635F70300889442 /* FishMassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishMassView.swift; sourceTree = "<group>"; };
 		5694E34D264336880065B489 /* PiramideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiramideView.swift; sourceTree = "<group>"; };
+		56964A4B2644201C0047CF82 /* PrimoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimoView.swift; sourceTree = "<group>"; };
 		569EA60226437714009A4149 /* SizeAwareness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeAwareness.swift; sourceTree = "<group>"; };
 		56E1A6AD2640727B006466C8 /* MacasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacasView.swift; sourceTree = "<group>"; };
 		56E1A6AF26407377006466C8 /* JornalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JornalView.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 			children = (
 				C01199452642CA5700458F40 /* AlerteAsOvelhasView.swift */,
 				5694E34D264336880065B489 /* PiramideView.swift */,
+				56964A4B2644201C0047CF82 /* PrimoView.swift */,
 			);
 			path = "Aula 4";
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				C014BF0E26401D7E0071E7BC /* TomperosView.swift in Sources */,
 				C01E981E263AD7970059B7A3 /* AgeInDaysView.swift in Sources */,
 				C0699BAC2639A8F100207237 /* ConversaoTemperatura.swift in Sources */,
+				56964A4C2644201C0047CF82 /* PrimoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
