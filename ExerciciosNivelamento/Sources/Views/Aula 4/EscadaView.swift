@@ -13,21 +13,19 @@ struct EscadaView: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            VStack(alignment: .center) {
-                Stepper("Qtde de degraus: \(levels)", value: $levels)
-                    .onChange(of: levels) { value in
-                        print(levels)
-                        levelsHashCount = ExerciciosNivelamento.escadaDeHashtag(com: levels)
-                        print(levelsHashCount)
-                    }
-            }
+            Stepper("Qtde de degraus: \(levels)", value: $levels)
+                .onChange(of: levels) { value in
+                    levelsHashCount = ExerciciosNivelamento.escadaDeHashtag(com: levels)
+                }
             
-            VStack(alignment: .leading) {
-                ForEach(levelsHashCount, id: \.self) { hashCount in
-                    Text(String(Array(repeating: "#", count: hashCount)))
+            ScrollView {
+                VStack(alignment: .leading) {
+                    ForEach(levelsHashCount, id: \.self) { hashCount in
+                        Text(String(Array(repeating: "#", count: hashCount)))
+                            .lineLimit(1)
+                    }
                 }
             }
-            Spacer()
         }
     }
 }

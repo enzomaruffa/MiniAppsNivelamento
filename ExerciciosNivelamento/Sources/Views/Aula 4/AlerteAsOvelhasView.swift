@@ -16,47 +16,48 @@ struct AlerteAsOvelhasView: View {
     let maxSheep = 6
     
     var body: some View {
-        Spacer()
-        ZStack(alignment: .center) {
+        VStack(alignment: .center) {
+            Spacer()
+            Text(message)
+                .foregroundColor(.black)
+                .bold()
+                .padding()
+                .background(Color.white)
+                .multilineTextAlignment(.center)
+                .lineLimit(nil)
+                .cornerRadius(12)
+                .frame(height: 80)
+            Spacer()
+            HStack(alignment: .center) {
+                ForEach(animals, id: \.self) { animal in
+                    Image(animal)
+                        .resizable()
+                        .frame(maxWidth: 26, maxHeight: 19)
+                }
+                Image("farmer")
+                    .resizable()
+                    .frame(maxWidth: 11, maxHeight: 19)
+            }
+            Spacer()
+            Button {
+                generateConfig()
+            } label: {
+                Text("Gerar!")
+                    .foregroundColor(.black)
+                    .bold()
+                    .padding()
+                    .background(Color.white)
+                    .cornerRadius(12)
+                    .shadow(color: .black, radius: 8, x: 0, y: 2)
+            }
+            Spacer()
+        }
+        .background(
             Image("farm-bg")
                 .resizable()
                 .aspectRatio(contentMode: .fill)
-            VStack(alignment: .center) {
-                Spacer()
-                VStack {
-                    Text(message)
-                        .foregroundColor(.black)
-                        .bold()
-                }
-                .padding()
-                .background(Color.white)
-                Spacer()
-                HStack(alignment: .center) {
-                    ForEach(animals, id: \.self) { animal in
-                        Image(animal)
-                            .resizable()
-                            .frame(maxWidth: 26, maxHeight: 19)
-                    }
-                    Image("farmer")
-                        .resizable()
-                        .frame(maxWidth: 11, maxHeight: 19)
-                }
-                Spacer()
-                Button(action: {
-                    generateConfig()
-                }, label: {
-                    VStack {
-                        Text("Gerar!")
-                            .foregroundColor(.black)
-                            .bold()
-                    }
-                    .padding()
-                    .background(Color.white)
-                })
-                Spacer()
-            }
-        }
-        Spacer()
+        )
+        .padding(.top)
     }
     
     func generateConfig() {
