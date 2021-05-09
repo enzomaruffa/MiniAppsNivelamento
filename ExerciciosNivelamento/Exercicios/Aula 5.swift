@@ -12,3 +12,13 @@ func palindromo(frase: String) -> Bool {
     return true
 }
 
+
+/// Ordena um vetor de inteiros
+/// - Parameter numeros: Os números que queremos ordernar
+/// - Returns: Um vetor com os números ordenados
+func ordenar(numeros: [Int]) -> [Int] {
+    // Seu código aqui
+    // ...
+    return numeros
+}
+
