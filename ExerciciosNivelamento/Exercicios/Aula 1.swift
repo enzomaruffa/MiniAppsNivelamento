@@ -6,7 +6,7 @@ import Foundation
 /// Calcula a área de um círculo a partir do raio.
 /// - Parameter raio: Raio do círculo (qualquer unidade).
 /// - Returns: Área do círculo.
-func areaDoCirculo(raio: Float) -> Float {
+func areaDoCirculo(raio: Double) -> Double {
     // Seu codigo aqui
     // ...
     return 0
@@ -34,6 +34,16 @@ func mediaPonderada(nota1: Float, peso1: Float, nota2: Float, peso2: Float, nota
 ///   - precoDaCarteira: Qual o preço da carteira (em reais).
 /// - Returns: O gasto total do fumante (em reais).
 func gastoDoFumante(anosFumando: Int, nCigarrosPorDia: Int, precoDaCarteira: Float) -> Float {
+    // Coloque seu codigo aqui
+    // ...
+    return 0
+}
+
+/// Converte a temperatura de fahrenhei pra celsius
+/// - Parameters:
+///   - temperaturaF: Temperatura em fahrenheit
+/// - Returns: Temperatrua em celsius.
+func converteTemperatura(temperaturaF: Double) -> Double {
     // Coloque seu codigo aqui
     // ...
     return 0

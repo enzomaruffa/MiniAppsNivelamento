@@ -22,6 +22,7 @@ struct ContentView: View {
             .navigationBarTitleDisplayMode(.inline)
             .navigationTitle("Aulas")
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 

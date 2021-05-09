@@ -14,17 +14,13 @@ struct FishMassView: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            Text("Densidade do mercúrio")
-                .font(.largeTitle)
-                .bold()
-                .lineLimit(nil)
             NumericTextField(title: "Massa do ser humano (kg)", text: $humanMass, value: humanMass, action: handleChange)
             
             HStack {
                 Image("fish-body")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .overlay(Text(String(format: "%.2f", fishMass) + " kg").foregroundColor(.white).bold().background(Color.black))
+                    .overlay(Text(String(format: "%.2f", fishMass) + " g").foregroundColor(.white).bold().background(Color.black))
                 Image("human-body")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
@@ -38,7 +34,7 @@ struct FishMassView: View {
     
     private func handleChange<T>(_: T) {
         guard let humanMass = Double(humanMass) else { return }
-        fishMass = ExerciciosNivelamento.ingestibleFishMass(forHumanOfMass: humanMass)
+        fishMass = ExerciciosNivelamento.massaDePeixeComestivel(paraMassaHumana: humanMass)
     }
 }
 

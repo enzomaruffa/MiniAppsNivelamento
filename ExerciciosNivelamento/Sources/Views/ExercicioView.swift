@@ -11,15 +11,15 @@ struct ExercicioView: View {
     let exercicio: Exercicio
     
     var body: some View {
-        VStack {
-            if exercicio.temItem {
-                HStack {
-                    Text("Tem item!")
-                }
-                Divider()
+        HStack(alignment: .top) {
+            VStack(alignment: .center) {
+                Text(exercicio.nome)
+                    .font(.largeTitle)
+                    .bold()
+                exercicio.view
             }
-            exercicio.view
         }
+        .padding()
         .navigationTitle(exercicio.nome)
     }
 }

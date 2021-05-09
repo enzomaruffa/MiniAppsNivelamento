@@ -19,9 +19,6 @@ struct IMCView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
             VStack(alignment: .leading) {
-                Text("IMC")
-                    .font(.largeTitle)
-                    .bold()
                 NumericTextField(title: "Peso", text: $weight, value: weight, action: handleChange)
                 NumericTextField(title: "Altura", text: $height, value: height, action: handleChange)
                 Text(imc)
@@ -38,7 +35,7 @@ struct IMCView: View {
             imc = "Entre com um peso em kg e uma altura em m."
             return
         }
-        let result = ExerciciosNivelamento.imc(weight: weight, height: height)
+        let result = ExerciciosNivelamento.imc(peso: weight, altura: height)
         imc = "IMC = " + String(format: "%.2f", result)
     }
 }

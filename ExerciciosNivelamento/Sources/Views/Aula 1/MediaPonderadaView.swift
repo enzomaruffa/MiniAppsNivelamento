@@ -9,29 +9,67 @@ struct MediaPonderadaView: View {
     @State private var peso2: String = ""
     @State private var peso3: String = ""
     
-    @State private var average: String = ""
+    @State private var average: String = "Preencha todos os campos!"
     
     var body: some View {
         VStack {
-            NumericTextField(
-                title: "Nota 1", text: $nota1,
-                value: nota1, action: handleChange)
-            NumericTextField(
-                title: "Nota 2", text: $nota2,
-                value: nota2, action: handleChange)
-            NumericTextField(
-                title: "Nota 3", text: $nota3,
-                value: nota3, action: handleChange)
-            NumericTextField(
-                title: "Peso 1", text: $peso1,
-                value: peso1, action: handleChange)
-            NumericTextField(
-                title: "Peso 2", text: $peso2,
-                value: peso2, action: handleChange)
-            NumericTextField(
-                title: "Peso 3", text: $peso3,
-                value: peso3, action: handleChange)
+            HStack {
+                HStack {
+                    Text("Nota:")
+                        .bold()
+                    NumericTextField(
+                        title: "Nota 1", text: $nota1,
+                        value: nota1, action: handleChange)
+                }
+                Spacer()
+                HStack {
+                    Text("Peso:")
+                        .bold()
+                    NumericTextField(
+                        title: "Peso 1", text: $peso1,
+                        value: peso1, action: handleChange)
+                }
+            }.padding()
+            Divider()
+            HStack {
+                HStack {
+                    Text("Nota:")
+                        .bold()
+                    NumericTextField(
+                        title: "Nota 2", text: $nota2,
+                        value: nota2, action: handleChange)
+                }
+                Spacer()
+                HStack {
+                    Text("Peso:")
+                        .bold()
+                    NumericTextField(
+                        title: "Peso 2", text: $peso2,
+                        value: peso2, action: handleChange)
+                }
+            }.padding()
+            Divider()
+            HStack {
+                HStack {
+                    Text("Nota:")
+                        .bold()
+                    NumericTextField(
+                        title: "Nota 3", text: $nota3,
+                        value: nota3, action: handleChange)
+
+                }
+                Spacer()
+                HStack {
+                    Text("Peso:")
+                        .bold()
+                    NumericTextField(
+                        title: "Peso 3", text: $peso3,
+                        value: peso3, action: handleChange)
+                }
+            }.padding()
+            Spacer()
             Text(average)
+                .bold()
         }.padding()
     }
     
@@ -43,7 +81,7 @@ struct MediaPonderadaView: View {
               let p2 = Float(peso2),
               let p3 = Float(peso3)
         else {
-            average = "Preencha todos os campos com numeros menores do que 10"
+            average = "Preencha todos os campos!"
             return
         }
         let average = mediaPonderada(

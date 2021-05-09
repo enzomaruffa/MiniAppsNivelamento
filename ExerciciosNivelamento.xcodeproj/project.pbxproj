@@ -12,6 +12,13 @@
 		564BAB4B2635DCD800889442 /* CircleRadiusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BAB4A2635DCD800889442 /* CircleRadiusView.swift */; };
 		564BAB502635DF1C00889442 /* CircleWithSemiLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BAB4F2635DF1C00889442 /* CircleWithSemiLine.swift */; };
 		564BAB562635F70300889442 /* FishMassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BAB552635F70300889442 /* FishMassView.swift */; };
+		5694E34E264336880065B489 /* PiramideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5694E34D264336880065B489 /* PiramideView.swift */; };
+		56964A4C2644201C0047CF82 /* PrimoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56964A4B2644201C0047CF82 /* PrimoView.swift */; };
+		569EA60326437714009A4149 /* SizeAwareness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569EA60226437714009A4149 /* SizeAwareness.swift */; };
+		56E1A6AE2640727B006466C8 /* MacasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E1A6AD2640727B006466C8 /* MacasView.swift */; };
+		56E1A6B026407377006466C8 /* JornalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E1A6AF26407377006466C8 /* JornalView.swift */; };
+		C01199462642CA5700458F40 /* AlerteAsOvelhasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01199452642CA5700458F40 /* AlerteAsOvelhasView.swift */; };
+		C01199482644369200458F40 /* EscadaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01199472644369200458F40 /* EscadaView.swift */; };
 		C013897E26120E6A00895BDC /* ExerciciosNivelamentoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C013897D26120E6A00895BDC /* ExerciciosNivelamentoApp.swift */; };
 		C013898026120E6A00895BDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C013897F26120E6A00895BDC /* ContentView.swift */; };
 		C013898226120E6D00895BDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C013898126120E6D00895BDC /* Assets.xcassets */; };
@@ -19,9 +26,14 @@
 		C013898E2612113500895BDC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C013898D2612113500895BDC /* Model.swift */; };
 		C01389962612150A00895BDC /* ExerciciosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01389952612150A00895BDC /* ExerciciosView.swift */; };
 		C013899A2612162000895BDC /* ExercicioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01389992612162000895BDC /* ExercicioView.swift */; };
+		C014BF0E26401D7E0071E7BC /* TomperosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C014BF0D26401D7E0071E7BC /* TomperosView.swift */; };
+		C014BF1026402F5C0071E7BC /* MediaAritmeticaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C014BF0F26402F5C0071E7BC /* MediaAritmeticaView.swift */; };
+		C01E981E263AD7970059B7A3 /* AgeInDaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01E981D263AD7970059B7A3 /* AgeInDaysView.swift */; };
+		C0699BAC2639A8F100207237 /* ConversaoTemperatura.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0699BAB2639A8F100207237 /* ConversaoTemperatura.swift */; };
 		C0A563AF2636EC7B0049DDF5 /* Aula 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A563AE2636EC7B0049DDF5 /* Aula 1.swift */; };
 		C0A563BA2636EFDC0049DDF5 /* Aula 5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A563B92636EFDC0049DDF5 /* Aula 5.swift */; };
 		C0A563BE2636EFEE0049DDF5 /* PalindromoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A563BD2636EFEE0049DDF5 /* PalindromoView.swift */; };
+		C0C3E6BA264757C200EBEA5A /* OrdenacaoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C3E6B9264757C200EBEA5A /* OrdenacaoView.swift */; };
 		C0EA299B2636F51E0092C5F8 /* Aula 6.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA299A2636F51E0092C5F8 /* Aula 6.swift */; };
 		C0EA29A32636F6590092C5F8 /* Aula 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA29A22636F6590092C5F8 /* Aula 3.swift */; };
 		C0EA29A62636F6620092C5F8 /* Aula 4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA29A52636F6620092C5F8 /* Aula 4.swift */; };
@@ -37,6 +49,13 @@
 		564BAB4A2635DCD800889442 /* CircleRadiusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleRadiusView.swift; sourceTree = "<group>"; };
 		564BAB4F2635DF1C00889442 /* CircleWithSemiLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleWithSemiLine.swift; sourceTree = "<group>"; };
 		564BAB552635F70300889442 /* FishMassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishMassView.swift; sourceTree = "<group>"; };
+		5694E34D264336880065B489 /* PiramideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiramideView.swift; sourceTree = "<group>"; };
+		56964A4B2644201C0047CF82 /* PrimoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimoView.swift; sourceTree = "<group>"; };
+		569EA60226437714009A4149 /* SizeAwareness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeAwareness.swift; sourceTree = "<group>"; };
+		56E1A6AD2640727B006466C8 /* MacasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacasView.swift; sourceTree = "<group>"; };
+		56E1A6AF26407377006466C8 /* JornalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JornalView.swift; sourceTree = "<group>"; };
+		C01199452642CA5700458F40 /* AlerteAsOvelhasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlerteAsOvelhasView.swift; sourceTree = "<group>"; };
+		C01199472644369200458F40 /* EscadaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscadaView.swift; sourceTree = "<group>"; };
 		C013897A26120E6A00895BDC /* ExerciciosNivelamento.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExerciciosNivelamento.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C013897D26120E6A00895BDC /* ExerciciosNivelamentoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciciosNivelamentoApp.swift; sourceTree = "<group>"; };
 		C013897F26120E6A00895BDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,9 +66,14 @@
 		C01389952612150A00895BDC /* ExerciciosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciciosView.swift; sourceTree = "<group>"; };
 		C01389992612162000895BDC /* ExercicioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercicioView.swift; sourceTree = "<group>"; };
 		C01389A72612317900895BDC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C014BF0D26401D7E0071E7BC /* TomperosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomperosView.swift; sourceTree = "<group>"; };
+		C014BF0F26402F5C0071E7BC /* MediaAritmeticaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaAritmeticaView.swift; sourceTree = "<group>"; };
+		C01E981D263AD7970059B7A3 /* AgeInDaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeInDaysView.swift; sourceTree = "<group>"; };
+		C0699BAB2639A8F100207237 /* ConversaoTemperatura.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversaoTemperatura.swift; sourceTree = "<group>"; };
 		C0A563AE2636EC7B0049DDF5 /* Aula 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Aula 1.swift"; sourceTree = "<group>"; };
 		C0A563B92636EFDC0049DDF5 /* Aula 5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Aula 5.swift"; sourceTree = "<group>"; };
 		C0A563BD2636EFEE0049DDF5 /* PalindromoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromoView.swift; sourceTree = "<group>"; };
+		C0C3E6B9264757C200EBEA5A /* OrdenacaoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdenacaoView.swift; sourceTree = "<group>"; };
 		C0EA299A2636F51E0092C5F8 /* Aula 6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Aula 6.swift"; sourceTree = "<group>"; };
 		C0EA29A22636F6590092C5F8 /* Aula 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Aula 3.swift"; sourceTree = "<group>"; };
 		C0EA29A52636F6620092C5F8 /* Aula 4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Aula 4.swift"; sourceTree = "<group>"; };
@@ -76,6 +100,7 @@
 				564BAB3B2635D0FD00889442 /* IMCView.swift */,
 				564BAB4A2635DCD800889442 /* CircleRadiusView.swift */,
 				564BAB552635F70300889442 /* FishMassView.swift */,
+				C01E981D263AD7970059B7A3 /* AgeInDaysView.swift */,
 			);
 			path = "Aula 2";
 			sourceTree = "<group>";
@@ -148,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				C0A563BD2636EFEE0049DDF5 /* PalindromoView.swift */,
+				C0C3E6B9264757C200EBEA5A /* OrdenacaoView.swift */,
 			);
 			path = "Aula 5";
 			sourceTree = "<group>";
@@ -162,6 +188,10 @@
 		C0EA29AA2636F6930092C5F8 /* Aula 3 */ = {
 			isa = PBXGroup;
 			children = (
+				C014BF0D26401D7E0071E7BC /* TomperosView.swift */,
+				C014BF0F26402F5C0071E7BC /* MediaAritmeticaView.swift */,
+				56E1A6AD2640727B006466C8 /* MacasView.swift */,
+				56E1A6AF26407377006466C8 /* JornalView.swift */,
 			);
 			path = "Aula 3";
 			sourceTree = "<group>";
@@ -169,6 +199,10 @@
 		C0EA29AB2636F6970092C5F8 /* Aula 4 */ = {
 			isa = PBXGroup;
 			children = (
+				C01199452642CA5700458F40 /* AlerteAsOvelhasView.swift */,
+				5694E34D264336880065B489 /* PiramideView.swift */,
+				56964A4B2644201C0047CF82 /* PrimoView.swift */,
+				C01199472644369200458F40 /* EscadaView.swift */,
 			);
 			path = "Aula 4";
 			sourceTree = "<group>";
@@ -192,6 +226,7 @@
 				D75EB3B02612418700A75E6E /* GastoDoFumanteView.swift */,
 				D75EB3B92612509C00A75E6E /* AreaDoCirculoView.swift */,
 				D75EB3C5261257F700A75E6E /* MediaPonderadaView.swift */,
+				C0699BAB2639A8F100207237 /* ConversaoTemperatura.swift */,
 			);
 			path = "Aula 1";
 			sourceTree = "<group>";
@@ -201,6 +236,7 @@
 			children = (
 				D75EB3BE261252A800A75E6E /* NumericTextField.swift */,
 				564BAB4F2635DF1C00889442 /* CircleWithSemiLine.swift */,
+				569EA60226437714009A4149 /* SizeAwareness.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -276,24 +312,36 @@
 			files = (
 				C0EA29A62636F6620092C5F8 /* Aula 4.swift in Sources */,
 				C013899A2612162000895BDC /* ExercicioView.swift in Sources */,
+				C01199462642CA5700458F40 /* AlerteAsOvelhasView.swift in Sources */,
+				C014BF1026402F5C0071E7BC /* MediaAritmeticaView.swift in Sources */,
+				569EA60326437714009A4149 /* SizeAwareness.swift in Sources */,
 				D75EB3C6261257F700A75E6E /* MediaPonderadaView.swift in Sources */,
 				C013898026120E6A00895BDC /* ContentView.swift in Sources */,
+				5694E34E264336880065B489 /* PiramideView.swift in Sources */,
 				C013898E2612113500895BDC /* Model.swift in Sources */,
 				D75EB3B12612418700A75E6E /* GastoDoFumanteView.swift in Sources */,
 				564BAB4B2635DCD800889442 /* CircleRadiusView.swift in Sources */,
+				C01199482644369200458F40 /* EscadaView.swift in Sources */,
 				D75EB3BF261252A800A75E6E /* NumericTextField.swift in Sources */,
 				C013897E26120E6A00895BDC /* ExerciciosNivelamentoApp.swift in Sources */,
 				C0EA299B2636F51E0092C5F8 /* Aula 6.swift in Sources */,
 				D75EB3BA2612509C00A75E6E /* AreaDoCirculoView.swift in Sources */,
+				56E1A6B026407377006466C8 /* JornalView.swift in Sources */,
 				564BAB502635DF1C00889442 /* CircleWithSemiLine.swift in Sources */,
+				56E1A6AE2640727B006466C8 /* MacasView.swift in Sources */,
 				C0A563AF2636EC7B0049DDF5 /* Aula 1.swift in Sources */,
 				564BAB3C2635D0FD00889442 /* IMCView.swift in Sources */,
+				C0C3E6BA264757C200EBEA5A /* OrdenacaoView.swift in Sources */,
 				564BAB412635D20A00889442 /* Aula 2.swift in Sources */,
 				C0EA29A32636F6590092C5F8 /* Aula 3.swift in Sources */,
 				564BAB562635F70300889442 /* FishMassView.swift in Sources */,
 				C0A563BA2636EFDC0049DDF5 /* Aula 5.swift in Sources */,
 				C01389962612150A00895BDC /* ExerciciosView.swift in Sources */,
 				C0A563BE2636EFEE0049DDF5 /* PalindromoView.swift in Sources */,
+				C014BF0E26401D7E0071E7BC /* TomperosView.swift in Sources */,
+				C01E981E263AD7970059B7A3 /* AgeInDaysView.swift in Sources */,
+				C0699BAC2639A8F100207237 /* ConversaoTemperatura.swift in Sources */,
+				56964A4C2644201C0047CF82 /* PrimoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
