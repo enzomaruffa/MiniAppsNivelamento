@@ -80,6 +80,7 @@ class Exercicios {
             Exercicio(nome: "Palíndromo", view: AnyView(PalindromoView())),
             Exercicio(nome: "Ordenação", view: AnyView(OrdenacaoView())),
             Exercicio(nome: "Pares x Ímpares", view: AnyView(ParidadeView())),
+            Exercicio(nome: "Acima da média 2.0", view: AnyView(AboveAverageView())),
         ]),
         Categoria(nome: "6. Algoritmos", exercicios: [
         ])

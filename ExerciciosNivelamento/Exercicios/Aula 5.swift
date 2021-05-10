@@ -29,3 +29,14 @@ func separaParesImpares(numeros: [Int]) -> (pares: [Int], impares: [Int]) {
     // ...
     return (pares: [], impares: [])
 }
+
+/// Descobre os estudantes que tiveram nota acima da média da turma
+/// - Parameters:
+///   - notas: Notas de cada estudante.
+///   - estudantes: Nomes de cada estudante (deve ter o mesmo tamanho que `notas`).
+/// - Returns: Nomes dos estudantes com nota acima.
+func acimaDaMedia2(notas: [Double], estudantes: [String]) -> [String] {
+    // Seu código aqui
+    // ...
+    []
+}

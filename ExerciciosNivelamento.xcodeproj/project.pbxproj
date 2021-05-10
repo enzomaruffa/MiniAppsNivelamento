@@ -18,6 +18,7 @@
 		56E1A6AE2640727B006466C8 /* MacasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E1A6AD2640727B006466C8 /* MacasView.swift */; };
 		56E1A6B026407377006466C8 /* JornalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E1A6AF26407377006466C8 /* JornalView.swift */; };
 		56E962312649646100943430 /* ParidadeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E962302649646100943430 /* ParidadeView.swift */; };
+		56E962332649736E00943430 /* AboveAverageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E962322649736E00943430 /* AboveAverageView.swift */; };
 		C01199462642CA5700458F40 /* AlerteAsOvelhasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01199452642CA5700458F40 /* AlerteAsOvelhasView.swift */; };
 		C01199482644369200458F40 /* EscadaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01199472644369200458F40 /* EscadaView.swift */; };
 		C013897E26120E6A00895BDC /* ExerciciosNivelamentoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C013897D26120E6A00895BDC /* ExerciciosNivelamentoApp.swift */; };
@@ -56,6 +57,7 @@
 		56E1A6AD2640727B006466C8 /* MacasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacasView.swift; sourceTree = "<group>"; };
 		56E1A6AF26407377006466C8 /* JornalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JornalView.swift; sourceTree = "<group>"; };
 		56E962302649646100943430 /* ParidadeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParidadeView.swift; sourceTree = "<group>"; };
+		56E962322649736E00943430 /* AboveAverageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboveAverageView.swift; sourceTree = "<group>"; };
 		C01199452642CA5700458F40 /* AlerteAsOvelhasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlerteAsOvelhasView.swift; sourceTree = "<group>"; };
 		C01199472644369200458F40 /* EscadaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscadaView.swift; sourceTree = "<group>"; };
 		C013897A26120E6A00895BDC /* ExerciciosNivelamento.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExerciciosNivelamento.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -177,6 +179,7 @@
 				C0A563BD2636EFEE0049DDF5 /* PalindromoView.swift */,
 				C0C3E6B9264757C200EBEA5A /* OrdenacaoView.swift */,
 				56E962302649646100943430 /* ParidadeView.swift */,
+				56E962322649736E00943430 /* AboveAverageView.swift */,
 			);
 			path = "Aula 5";
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				56E1A6AE2640727B006466C8 /* MacasView.swift in Sources */,
 				C0A563AF2636EC7B0049DDF5 /* Aula 1.swift in Sources */,
 				564BAB3C2635D0FD00889442 /* IMCView.swift in Sources */,
+				56E962332649736E00943430 /* AboveAverageView.swift in Sources */,
 				C0C3E6BA264757C200EBEA5A /* OrdenacaoView.swift in Sources */,
 				564BAB412635D20A00889442 /* Aula 2.swift in Sources */,
 				C0EA29A32636F6590092C5F8 /* Aula 3.swift in Sources */,
