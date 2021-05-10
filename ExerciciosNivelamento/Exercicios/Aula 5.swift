@@ -22,3 +22,10 @@ func ordenar(numeros: [Int]) -> [Int] {
     return numeros
 }
 
+/// Separa números pares e ímpares.
+/// - Parameter numeros: Número a serem separados.
+func separaParesImpares(numeros: [Int]) -> (pares: [Int], impares: [Int]) {
+    // Seu código aqui
+    // ...
+    return (pares: [], impares: [])
+}

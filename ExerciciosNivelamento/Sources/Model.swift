@@ -78,7 +78,8 @@ class Exercicios {
         ]),
         Categoria(nome: "5. Vetores", exercicios: [
             Exercicio(nome: "Palíndromo", view: AnyView(PalindromoView())),
-            Exercicio(nome: "Ordenação", view: AnyView(OrdenacaoView()))
+            Exercicio(nome: "Ordenação", view: AnyView(OrdenacaoView())),
+            Exercicio(nome: "Pares x Ímpares", view: AnyView(ParidadeView())),
         ]),
         Categoria(nome: "6. Algoritmos", exercicios: [
         ])
