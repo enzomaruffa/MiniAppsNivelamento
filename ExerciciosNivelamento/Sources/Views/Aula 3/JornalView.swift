@@ -11,7 +11,7 @@ struct JornalView: View {
     @State private var selectedNewscaster = ""
     @State private var shownLogo = ""
     
-    let newscasters = ["Pinheiro", "Araújo", "Coutinho", "Bonner", "Vasconcellos", "Pelajo", "Waack"]
+    let newscasters = ["Pinheiro", "Araújo", "Coutinho", "Bonner", "Vasconcellos", "Pelajo"]
     
     let logos = [
         "Bom Dia Brasil": "bom-dia-brasil",
